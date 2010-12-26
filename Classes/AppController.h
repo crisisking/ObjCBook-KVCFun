@@ -10,8 +10,7 @@
 
 
 @interface AppController : NSObject {
-@private
-    
+    int fido;
 }
 
 @end

@@ -13,7 +13,9 @@
 
 - (id)init {
     if ((self = [super init])) {
-        // Initialization code here.
+        [self setValue:[NSNumber numberWithInt:5] forKey:@"fido"];
+        NSNumber *n = [self valueForKey:@"fido"];
+        NSLog(@"fido = %@", n);
     }
     
     return self;

@@ -10,6 +10,7 @@
 
 
 @implementation AppController
+@synthesize fido;
 
 - (id)init {
     if ((self = [super init])) {
@@ -19,16 +20,6 @@
     }
     
     return self;
-}
-
-- (int)fido {
-    NSLog(@"-fido is returning %d", fido);
-    return fido;
-}
-
-- (void)setFido:(int)x {
-    NSLog(@"-setFido: is called with %d", x);
-    fido = x;
 }
 
 - (void)incrementFido:(id)sender {

@@ -13,4 +13,6 @@
     int fido;
 }
 
+- (int)fido;
+- (void)setFido:(int)x;
 @end

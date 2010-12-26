@@ -32,8 +32,7 @@
 }
 
 - (void)incrementFido:(id)sender {
-    fido++;
-    NSLog(@"fido is now %d", fido);
+    [self setFido:[self fido] + 1];
 }
 
 - (void)dealloc {

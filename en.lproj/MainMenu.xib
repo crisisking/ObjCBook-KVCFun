@@ -1361,13 +1361,13 @@
 							<string key="NSFrame">{{71, 172}, {38, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="988483028"/>
+							<reference key="NSNextKeyView" ref="780010807"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="137550242">
 								<int key="NSCellFlags">68288064</int>
 								<int key="NSCellFlags2">272630784</int>
 								<string key="NSContents">Label</string>
-								<object class="NSFont" key="NSSupport" id="256542480">
+								<object class="NSFont" key="NSSupport" id="362813419">
 									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">13</double>
 									<int key="NSfFlags">1040</int>
@@ -1393,7 +1393,7 @@
 								</object>
 							</object>
 						</object>
-						<object class="NSButton" id="988483028">
+						<object class="NSButton" id="780010807">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{126, 63}, {228, 32}}</string>
@@ -1401,12 +1401,12 @@
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView"/>
 							<bool key="NSEnabled">YES</bool>
-							<object class="NSButtonCell" key="NSCell" id="107354033">
+							<object class="NSButtonCell" key="NSCell" id="1049254578">
 								<int key="NSCellFlags">67239424</int>
 								<int key="NSCellFlags2">134217728</int>
 								<string key="NSContents">Increment Fido</string>
-								<reference key="NSSupport" ref="256542480"/>
-								<reference key="NSControlView" ref="988483028"/>
+								<reference key="NSSupport" ref="362813419"/>
+								<reference key="NSControlView" ref="780010807"/>
 								<int key="NSButtonFlags">-2038284033</int>
 								<int key="NSButtonFlags2">129</int>
 								<string key="NSAlternateContents"/>
@@ -2149,6 +2149,14 @@
 					</object>
 					<int key="connectionID">543</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">incrementFido:</string>
+						<reference key="source" ref="723144372"/>
+						<reference key="destination" ref="780010807"/>
+					</object>
+					<int key="connectionID">546</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -2706,7 +2714,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="75007007"/>
 							<reference ref="477836258"/>
-							<reference ref="988483028"/>
+							<reference ref="780010807"/>
 						</object>
 						<reference key="parent" ref="972006081"/>
 					</object>
@@ -3233,17 +3241,17 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">544</int>
-						<reference key="object" ref="988483028"/>
+						<reference key="object" ref="780010807"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="107354033"/>
+							<reference ref="1049254578"/>
 						</object>
 						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">545</int>
-						<reference key="object" ref="107354033"/>
-						<reference key="parent" ref="988483028"/>
+						<reference key="object" ref="1049254578"/>
+						<reference key="parent" ref="780010807"/>
 					</object>
 				</object>
 			</object>
@@ -3792,7 +3800,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">545</int>
+			<int key="maxID">546</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
